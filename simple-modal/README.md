@@ -1,1 +1,1 @@
-#AngularJS : simple-modal
+#AngularJS : simple-modal Directive
