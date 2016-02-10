@@ -1,6 +1,5 @@
-'use strict';
-
 (function() {
+	'use strict';
 	angular.module('tagInput', [])
 		.directive('tagInputElement', TagInputElement);
   
