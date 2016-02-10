@@ -52,7 +52,7 @@
 		};
 	}
 	
-	angular.module('tagInput', [])
+	angular.module('tagInput')
 		.directive('ngEnter', NgEnter);
   
 	NgEnter.$inject = [];
