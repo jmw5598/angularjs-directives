@@ -1,0 +1,58 @@
+.smw-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.smw-window {
+  font-family: Ubuntu;
+  background: #f3f3f3;
+  border-radius: 3px;
+  position: relative;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+
+.smw-header, .smw-content, .smw-footer {
+  padding: 20px;
+}
+
+.smw-header>h2, .smw-footer>h2 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.smw-header, .smw-footer {
+  background: #EAEAEA;
+  border-bottom: 1px solid #DDD;
+}
+
+.smw-header {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  height: 20px;
+}
+
+.smw-footer {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.smw-btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.smw-btn-close {
+  font-weight: bold;
+}
